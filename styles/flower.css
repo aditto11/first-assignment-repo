@@ -37,7 +37,7 @@ body {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 30px;
-
+    border: 0;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -118,7 +118,7 @@ body {
     background: rgba(229, 84, 115, 0.05);
 }
 
-.hot-deal-content{
+.hot-deal-content {
     padding: 230px 0px 150px 400px;
     text-align: center;
 }
@@ -140,6 +140,146 @@ body {
     font-weight: 400;
     padding-bottom: 32px;
 }
-.hot-img{
+
+.hot-img {
     padding: 100px 400px 100px 0;
+}
+
+.rose-deal {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.rose-deal-content {
+
+    padding: 230px 150px;
+    text-align: center;
+}
+
+.rose-deal-title {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.rose-deal-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+
+.Instagram-banner {
+    padding: 200px 650px 50px 650px;
+}
+
+.Instagram-banner-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Instagram-banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Instagram-img {
+    display: flex;
+    padding: 0px 240px;
+    gap: 25px;
+}
+
+
+.last-div {
+    padding: 128px 240px;
+    border-radius: 8px;
+    background-image: url(../Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.last-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 0px;
+    padding-top: 122px;
+}
+
+.last-description {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input-u {
+    display: flex;
+    gap: 16px;
+    padding: 0px 280px 112px 280px;
+}
+
+input {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 23px 500px 22px 22px;
+    border: 0;
+}
+
+footer {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+
+    margin: 0px;
+    padding: 0px;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding: 128px 732px 24px 732px;
+}
+
+.o {
+    color: #E55473;
+}
+
+.a {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 649px 32px 649px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 700px 128px 700px;
 }
